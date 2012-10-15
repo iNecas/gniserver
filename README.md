@@ -6,8 +6,15 @@ that it can be installed to your system before the gem.
 ## Example
 
 ```
-http://gniserver-inecas.rhcloud.com/gems/nokogiri/sysdeps
+curl http://gniserver-inecas.rhcloud.com/fedora.yml
 
-["gcc","ruby-devel","libxml2-devel","libxslt-devel"]
+basic_build_deps:
+  - gcc
+  - ruby-devel
+gems:
+  nokogiri:
+    - libxml2-devel
+    - libxslt-devel
+  sqlite3:
+    - sqlite-devel
 ```
-

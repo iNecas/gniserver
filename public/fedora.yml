@@ -1,0 +1,9 @@
+basic_build_deps:
+  - gcc
+  - ruby-devel
+gems:
+  nokogiri:
+    - libxml2-devel
+    - libxslt-devel
+  sqlite3:
+    - sqlite-devel
