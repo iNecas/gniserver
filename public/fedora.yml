@@ -1,6 +1,7 @@
 basic_build_deps:
 - gcc
 - ruby-devel
+- make
 gems:
   atk:
   - atk-devel
